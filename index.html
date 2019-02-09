@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="static/img/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/ionicons.min.css">
+    <link rel="stylesheet" href="static/css/swiper.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+  <title>ARTLOVE :: HOME</title>
+</head>
+<body>
+  <!-- Mobile Header -->
+  <div class="wsmobileheader clearfix ">
+    <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+    <span class="smllogo">
+      <img src="static/img/logo.png" alt="">
+    </span>
+    <div class="rightmenu smlrightmenu">
+      <div class="cart-icon align-items-center d-flex">
+        <img src="static/img/icon-cart.png" class="mr-2">
+        <span>(0)</span>
+      </div>
+    </div>
+  </div>
+  <!-- Mobile Header -->
+  <div class="wsmainfull clearfix">
+    <div class="align-items-center clearfix container d-flex">
+      <div class="desktoplogo">
+        <a href="index.html">
+          <img src="static/img/logo.png" alt="">
+        </a>
+      </div>
+      <!--Main Menu-->
+      <nav class="wsmenu clearfix">
+        <div class="overlapblackbg"></div>
+        <ul class="wsmenu-list">
+          <li aria-haspopup="true" class="rightmenu hidden-xs">
+            <div class="cart-icon align-items-center d-flex mr-0">
+              <img src="static/img/icon-cart.png" class="mr-2">
+              <span>(0)</span>
+            </div>
+          </li>
+          <li aria-haspopup="true" class="rightmenu hidden-xs">
+            <div class="user-icon align-items-center d-flex">
+              <img src="static/img/icon-user.png" class="mr-2">
+              <span>CONNEXION</span>
+            </div>
+            <ul class="sub-menu">
+              <li aria-haspopup="true"><a href="#"><i class="fa fa-angle-right"></i>Signout</a></li>
+            </ul>
+          </li>
+          <li aria-haspopup="true" class="rightmenu mr-4 hidden-xs">
+            <form class="searchbox">
+                <input type="search" placeholder="Rechercher......" name="search" class="searchbox-input" onkeyup="buttonUp();">
+                <button type="submit" class="searchbox-submit"><i class="ion-ios-search"></i></button>
+                <button type="button" class="btn searchbox-icon"><i class="ion-ios-search"></i></button>
+            </form>
+          </li>
+          <li>
+            <div class="sml-search">
+              <form class="d-flex">
+                <div class="form-group mr-1">
+                  <input type="text" class="form-control w-100" placeholder="Rechercher">
+                </div>
+                <button type="button" class="btn"><i class="ion-ios-search"></i></button>
+              </form>
+            </div>
+          </li>
+          <li>
+            <a>E-Shop</a>
+            <div class="wsmegamenu clearfix">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-3 col-md-12 col-xs-12 link-list">
+                    <img src="static/img/1.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-3 col-md-12 col-xs-12 link-list">
+                    <ul class="flex-column h-100 justify-content-center nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Nouvelle collection</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Hauts</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Maills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Robes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Jups & Shots</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pantalons</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a>Lookbooks</a>
+          </li>
+          <li>
+            <a>Marque</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
+          <li aria-haspopup="true" class="sml-connection">
+            <a class="sign-out-btn">
+              <img src="static/img/icon-user.png" class="mr-2">
+              <span>CONNEXION</span>
+            </a>
+            <ul class="sub-menu">
+              <li aria-haspopup="true"><a href="#"><i class="fa fa-angle-right"></i>Signout</a></li>
+            </ul>
+          </li>     
+        </ul>
+      </nav>
+      <!--Menu-->
+    </div>
+  </div>
+  <div class="swiper-container main-banner" id="main-banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide active" style="background-image: url(static/img/banner-1.jpg);"> 
+        <div class="item">
+          <h1 class="text-uppercase">Nouveautes</h1>
+        </div>
+      </div>
+      <div class="swiper-slide" style="background-image: url(static/img/banner-2.jpg); background-position: 50% 100%;"> 
+        <div class="item">
+          <h1 class="text-uppercase">Lookbooks</h1>
+        </div>
+      </div>
+      <div class="swiper-slide" style="background-image: url(static/img/banner-3.jpg);"> 
+        <div class="item">
+          <h1 class="text-uppercase">Marque</h1>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <div class="listing-home">
+    <ul>
+      <li>
+        <a href="#">
+          <span style="background-image: url(static/img/photo-1.jpg)">
+            <img src="static/img/photo-1.jpg" alt="">
+          </span>
+        </a>
+        <div class="item">
+          <h1 class="text-uppercase"><span>Hauts</span></h1>
+        </div>
+      </li>
+      <li>
+        <a href="#">
+          <span style="background-image: url(static/img/photo-2.jpg)">
+            <img src="static/img/photo-2.jpg" alt="">
+          </span>
+        </a>
+        <div class="item">
+          <h1 class="text-uppercase"><span>Mailles</span></h1>
+        </div>
+      </li>
+    </ul>
+    <ul class="wide-img">
+      <li>
+        <a href="#">
+          <span style="background-image: url(static/img/photo-3.jpg)">
+            <img src="static/img/photo-3.jpg" alt="">
+          </span>
+        </a>
+        <div class="item">
+          <h1 class="text-uppercase"><span>Robes</span></h1>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="static-listing-home">
+    <div class="container">
+      <h3 class="text-uppercase text-center">Completez votre look</h3>
+      <ul>
+        <li>
+          <div class="listing-wrp">
+            <span>
+              <a href="#">
+                <img src="static/img/product.jpg" alt="">
+              </a>
+            </span>
+            <h4 class="float-left">Veste Charlotte</h4>
+            <h4 class="float-right price">69,000€</h4>
+          </div>
+        </li>
+        <li>
+          <div class="listing-wrp">
+            <span>
+              <a href="#">
+                <span class="badge">-20%</span>
+                <img src="static/img/product.jpg" alt="">
+              </a>
+            </span>
+            <h4 class="float-left">Veste Charlotte</h4>
+            <h4 class="float-right price">69,000€</h4>
+          </div>
+        </li>
+        <li>
+          <div class="listing-wrp">
+            <span>
+              <a href="#">
+                <img src="static/img/product.jpg" alt="">
+              </a>
+            </span>
+            <h4 class="float-left">Veste Charlotte</h4>
+            <h4 class="float-right price">69,000€</h4>
+          </div>
+        </li>
+        <li>
+          <div class="listing-wrp">
+            <span>
+              <a href="#">
+                <span class="badge text-uppercase">New</span>
+                <img src="static/img/product.jpg" alt="">
+              </a>
+            </span>
+            <h4 class="float-left">Veste Charlotte</h4>
+            <h4 class="float-right price">69,000€</h4>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="static-collapse-home">
+    <div class="container">
+      <i class="ins-icon"></i>
+      <h3 class="text-uppercase text-center">Suivez-Nous Sur Instagram</h3>
+      <ul>
+        <li>
+          <span>
+            <a href="#">
+              <img src="static/img/image-inst-1.jpg" alt="">
+            </a>
+          </span>
+        </li>
+        <li>
+          <span>
+            <a href="#">
+              <img src="static/img/image-inst-2.jpg" alt="">
+            </a>
+          </span>
+        </li>
+        <li>
+          <span>
+            <a href="#">
+              <img src="static/img/image-inst-3.jpg" alt="">
+            </a>
+          </span>
+        </li>
+        <li>
+          <span>
+            <a href="#">
+              <img src="static/img/image-inst-4.jpg" alt="">
+            </a>
+          </span>
+        </li>
+        <li>
+          <span>
+            <a href="#">
+            <img src="static/img/image-inst-5.jpg" alt="">
+            </a>
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="offer-service-home">
+    <div class="container">
+      <ul>
+        <li>
+          <div class="text-center">
+          <span>
+            <img src="static/img/icon-box-outline.png" alt="">
+          </span>
+          <h4>Livraison Offerte</h4>
+          <small>a partir de 80€ d'achat</small>
+          </div>
+        </li>
+        <li>
+          <div class="text-center">
+          <span>
+            <img src="static/img/icon-reload-outline.png" alt="">
+          </span>
+          <h4>Retour Facile</h4>
+          <small></small>
+          </div>
+        </li>
+        <li>
+          <div class="text-center">
+          <span>
+            <img src="static/img/icon-lock-outline.png" alt="">
+          </span>
+          <h4>Paiement Securise</h4>
+          <small>Visa, Mastercard, Pypal</small>
+          </div>
+        </li>
+        <li>
+          <div class="text-center">
+          <span>
+            <img src="static/img/icon-help-outline.png" alt="">
+          </span>
+          <h4>Service Client</h4>
+          <small><a href="mailto:contact@artlove.fr">contact@artlove.fr</a></small>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="partenaires-home">
+    <h4>Sites Partenaires</h4>
+    <ul>
+      <li>
+        <img src="static/img/logo-gal.png" alt="">
+      </li>
+      <li>
+        <img src="static/img/logo-la-redoute.png" alt="">
+      </li>
+    </ul>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-3 col-md-4 logo-footer hidden-sm">
+          <img src="static/img/logo.png" alt="">
+        </div>
+        <div class="col-12 col-lg-2 col-md-4 listing-footer mt-4 mt-md-0 mt-lg-0 hidden-sm">
+          <h4>E-Shop</h4>
+          <ul>
+            <li class="nav-item">
+              <a href="#">Nouvelle collection</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Hauts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Maills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Robes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Jups & Shots</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Pantalons</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-2 col-md-4 listing-footer mt-4 mt-sm-0 mt-md-0 mt-lg-0">
+          <h4>A Propos</h4>
+          <ul>
+            <li class="nav-item">
+              <a href="#">Lookbooks</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Marque</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Mentions legales</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">CGV</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-3 mt-4 mt-lg-0 justify-content-center newsletter-footer">
+          <h4>Newsletter Artlove</h4>
+          <form class="flex-nowrap form-inline justify-content-center justify-content-lg-start justify-content-xl-start">
+            <div class="form-group m-0 mr-1">
+              <input type="text" class="form-control w-100" placeholder="Votre adresse e-mail">
+            </div>
+            <button type="button" class="btn btn-outline-dark">OK</button>
+          </form>
+        </div>
+        <div class="col-12 col-lg-2 col-md-12 d-flex justify-content-center justify-content-lg-end social-footer">
+          <a href="#"><img src="static/img/icon-social-facebook.png" alt=""></a>
+          <a href="#"><img src="static/img/icon-social-instagram.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; ArtLove 2019
+    </div>
+  </footer>
+  <script src="static/js/jquery-3.3.1.min.js"></script>
+  <script src="static/js/jquery.smoothScroll.js"></script>
+  <script src="static/js/swiper.min.js"></script>
+  <script src="static/js/artlove.js"></script>
+</body>
+</html>
