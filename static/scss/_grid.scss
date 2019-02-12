@@ -80,7 +80,7 @@ html, body {
     display: block;
   }
   .wsmegamenu {
-    img {
+    .nav-imgs {
       display: none;
     }
   }
@@ -804,6 +804,29 @@ footer {
       color: rgba(0,0,0,.72);
     }
   }
+}
+.nav-imgs {
+  position: relative;
+  overflow: hidden;
+  min-height: 190px;
+  width: 100%;
+  div {
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    position:absolute;
+    left:0;
+    transition: opacity 1s ease-in-out;
+    &.show {
+      opacity:1;
+    }
+  }
+  
 }
 @media only screen and (max-width: 600px) {
   .listing-home {
